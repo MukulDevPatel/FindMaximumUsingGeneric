@@ -6,9 +6,16 @@ using System.Threading.Tasks;
 
 namespace FindMaximumUsingGeneric
 {
-    public class FindMaximum
+    public class FindMaximum<T> where T : IComparable
     {
-        public static string MaximumStringValue(string firstValue, string secondValue, string thirdValue)
+        public T firstValue, secondValue, thirdValue;
+        public FindMaximum(T firstValue, T secondValue, T thirdValue)
+        {
+            this.firstValue = firstValue;
+            this.secondValue = secondValue;
+            this.thirdValue = thirdValue;
+        }
+        public static T MaximumValue(T firstValue, T secondValue, T thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0 ||
                 firstValue.CompareTo(secondValue) >= 0 && firstValue.CompareTo(thirdValue) > 0 ||
@@ -28,7 +35,7 @@ namespace FindMaximumUsingGeneric
             {
                 return thirdValue;
             }
-            return firstValue;
+            return default;
         }
     }
 }
