@@ -8,31 +8,16 @@ namespace FindMaximumUsingGeneric
 {
     public class GenericMaximum<T> where T : IComparable
     {
-        public T[] value;
-        public GenericMaximum(T[] value)
+        public static T testMaximum(T first, T second)
         {
-            this.value = value;
-        }
-        public T[] Sort(T[] values)
-        {
-            Array.Sort(values);
-            return values;
-        }
-        
-        public T MaxValue(params T[] values)
-        {
-            var sorted_values = Sort(values);
-            return sorted_values[^1];
-        }
-        public T MaxMethod()
-        {
-            var max = MaxValue(this.value);
-            return max;
-        }
-        public void PrintMax()
-        {
-            var max=MaxValue(this.value);
-            Console.WriteLine("Max value is "+max);
+            if (first.CompareTo(second) > 0) 
+            {
+                return first;
+            }
+            else
+            {
+                return second;
+            }
         }
     }
 }
