@@ -1,0 +1,15 @@
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\bin\Debug\net6.0\FindMaximumUsingGeneric.exe
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\bin\Debug\net6.0\FindMaximumUsingGeneric.deps.json
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\bin\Debug\net6.0\FindMaximumUsingGeneric.runtimeconfig.json
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\bin\Debug\net6.0\FindMaximumUsingGeneric.dll
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\bin\Debug\net6.0\FindMaximumUsingGeneric.pdb
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\obj\Debug\net6.0\FindMaximumUsingGeneric.csproj.AssemblyReference.cache
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\obj\Debug\net6.0\FindMaximumUsingGeneric.GeneratedMSBuildEditorConfig.editorconfig
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\obj\Debug\net6.0\FindMaximumUsingGeneric.AssemblyInfoInputs.cache
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\obj\Debug\net6.0\FindMaximumUsingGeneric.AssemblyInfo.cs
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\obj\Debug\net6.0\FindMaximumUsingGeneric.csproj.CoreCompileInputs.cache
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\obj\Debug\net6.0\FindMaximumUsingGeneric.dll
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\obj\Debug\net6.0\refint\FindMaximumUsingGeneric.dll
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\obj\Debug\net6.0\FindMaximumUsingGeneric.pdb
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\obj\Debug\net6.0\FindMaximumUsingGeneric.genruntimeconfig.cache
+D:\BridgeLabz Second batch\FindMaximumUsingGeneric\obj\Debug\net6.0\ref\FindMaximumUsingGeneric.dll
