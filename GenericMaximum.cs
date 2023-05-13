@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace FindMaximumUsingGeneric
 {
-    public class FindMaximum<T> where T : IComparable
+    public class GenericMaximum<T> where T : IComparable
     {
         public T firstValue, secondValue, thirdValue;
-        public FindMaximum(T firstValue, T secondValue, T thirdValue)
+        public GenericMaximum(T firstValue, T secondValue, T thirdValue)
         {
             this.firstValue = firstValue;
             this.secondValue = secondValue;

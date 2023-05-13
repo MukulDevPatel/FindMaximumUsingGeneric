@@ -1,4 +1,6 @@
 ﻿
+using System.Collections;
+
 namespace FindMaximumUsingGeneric
 {
     class Program
@@ -19,13 +21,13 @@ namespace FindMaximumUsingGeneric
             string secondName = "Maximum";
             string thirdName = "StringValue";
 
-            string value = FindMaximum<string>.MaximumValue(firstName, secondName, thirdName);
+            string value = GenericMaximum<string>.MaximumValue(firstName, secondName, thirdName);
             Console.WriteLine(value);
 
-            int Numvalue = FindMaximum<int>.MaximumValue(firstNumber, secondNumber, thirdNumber);
+            int Numvalue = GenericMaximum<int>.MaximumValue(firstNumber, secondNumber, thirdNumber);
             Console.WriteLine(Numvalue);
             
-            double Doublevalue = FindMaximum<double>.MaximumValue(fourNumber, fifthNumber, sixthNumber);
+            double Doublevalue = GenericMaximum<double>.MaximumValue(fourNumber, fifthNumber, sixthNumber);
             Console.WriteLine(Doublevalue);
         }
     }
