@@ -9,26 +9,18 @@ namespace FindMaximumUsingGeneric
         {
             Console.WriteLine("Find Maximum Using Generic");
 
-            int firstNumber = 80;
-            int secondNumber = 100;
-            int thirdNumber = 110;
+            int[] intArray = { 1, 2, 3, 4 };
+            double[] doubleArray = { 1.1, 2.2, 3.3, 4.4 };
+            char[] charArray = { 'a', 'b', 'c', 'd' };
 
-            double fourNumber = 80.2;
-            double fifthNumber = 80.56;
-            double sixthNumber = 80.60;
+            GenericMaximum<int> generic = new GenericMaximum<int>(intArray);
+            generic.PrintMax();
 
-            string firstName = "Max";
-            string secondName = "Maximum";
-            string thirdName = "StringValue";
+            GenericMaximum<double> generics = new GenericMaximum<double>(doubleArray);
+            generics.PrintMax();
 
-            string value = GenericMaximum<string>.MaximumValue(firstName, secondName, thirdName);
-            Console.WriteLine(value);
-
-            int Numvalue = GenericMaximum<int>.MaximumValue(firstNumber, secondNumber, thirdNumber);
-            Console.WriteLine(Numvalue);
-            
-            double Doublevalue = GenericMaximum<double>.MaximumValue(fourNumber, fifthNumber, sixthNumber);
-            Console.WriteLine(Doublevalue);
+            GenericMaximum<char> genericMax = new GenericMaximum<char>(charArray);
+            genericMax.PrintMax();
         }
     }
 }
