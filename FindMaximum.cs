@@ -8,7 +8,7 @@ namespace FindMaximumUsingGeneric
 {
     public class FindMaximum
     {
-        public static int MaximumIntegerValue(int firstValue, int secondValue, int thirdValue)
+        public static double MaximumDoubleValue(double firstValue, double secondValue, double thirdValue)
         {
             if (firstValue.CompareTo(secondValue) > 0 && firstValue.CompareTo(thirdValue) > 0 ||
                 firstValue.CompareTo(secondValue) >= 0 && firstValue.CompareTo(thirdValue) > 0 ||

@@ -7,11 +7,11 @@ namespace FindMaximumUsingGeneric
         {
             Console.WriteLine("Find Maximum Using Generic");
 
-            int firstNumber = 400;
-            int secondNumber = 600;
-            int thirdNumber = 100;
+            double firstNumber = 3.2;
+            double secondNumber = 2.2;
+            double thirdNumber = 1.2;
 
-            int value=FindMaximum.MaximumIntegerValue(firstNumber, secondNumber, thirdNumber);
+            double value=FindMaximum.MaximumDoubleValue(firstNumber, secondNumber, thirdNumber);
             Console.WriteLine(value);
         }
     }
